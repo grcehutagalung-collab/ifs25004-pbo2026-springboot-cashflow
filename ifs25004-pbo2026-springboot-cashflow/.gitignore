@@ -1,0 +1,15 @@
+target/
+.env
+!.env.example
+.idea/
+*.iml
+.vscode/
+node_modules/
+src/main/frontend/generated/
+vaadin.lock
+package.json
+package-lock.json
+vite.config.ts
+vite.generated.ts
+tsconfig.json
+types.d.ts
