@@ -154,8 +154,6 @@ public class FinanceView extends VerticalLayout {
         sortSelect.setPlaceholder("Urutkan...");
         sortSelect.setItems(SortOption.values());
         sortSelect.setItemLabelGenerator(SortOption::label);
-        sortSelect.setEmptySelectionAllowed(true);
-        sortSelect.setEmptySelectionCaption("Urutan default");
         sortSelect.addValueChangeListener(e -> refresh());
     }
 
